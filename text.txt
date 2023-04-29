@@ -1,0 +1,22 @@
+work-1
+open the terminal initialize npm init --y (package.json was created)
+create neccessary file structure(config,controller,middlewares,models,routes)
+install required package using command (npm i express mongoose bcrypt body-parser dotenv)
+create server index.js file using express
+install dev dependency nodemon (npm i nodemon --save-dev)
+writing script in package.json for initialize nodemon
+connecting a database mongoose in config folder dbconnect.js
+create userMOdel,userController and authroute file
+create usermodel using mongodb extenstion for nodejs
+authRoute file wirite roter.post and export the module
+in index require authroute and app.use(path,postroute)
+create user controller using mongodb commands and nodejs require usermodel and export for other module usage
+using thos authRoute to give handler router.post("/register", createUser);
+result:user succesfully created and api checked by postman is working fine and db connected data stored in mongodb
+work-2
+middleware -errorhandler.js(create errorhandler and notfound )
+use this in index.js after authpathroute specified
+install npm i express-async-handler
+using async-handler in userController
+using async controler handle middleware and working fine
+
