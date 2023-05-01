@@ -40,6 +40,8 @@ work-7(delete user)
 delete api created 
 authRoute created
 work-8 (update user)
-
+user updated
+block feature created
+authorization done
 
 
