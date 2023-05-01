@@ -29,6 +29,12 @@ in usermodel matching code written succesfully
 route created
 work-5(json web token)
 install npm i jsonwebtoken
+in usercontroller change the response.json and generateToken added
+in usermodel add role default user
+work-6(user crud)
+create get all user 
+create get single User by id
+
 
 
 

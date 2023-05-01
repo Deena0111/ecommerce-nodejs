@@ -31,5 +31,26 @@ const loginUserCtrl = asyncHandler(async (req, res) => {
     throw new Error("Invalid Credentials");
   }
 });
+//get all user
+const getAllUser = asyncHandler(async (req, res) => {
+  try {
+    const getUsers = await User.find();
+    res.json(getUsers);
+  } catch (error) {
+    throw new Error(error);
+  }
+});
+//get a single users
+const getUser = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  try {
+    const getUser = await User.findById(id);
+    res.json({
+      getUser,
+    });
+  } catch (error) {
+    throw new Error(error);
+  }
+});
 
-module.exports = { createUser, loginUserCtrl };
+module.exports = { createUser, loginUserCtrl, getAllUser, getUser };
