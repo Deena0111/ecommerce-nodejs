@@ -24,5 +24,11 @@ const bcrypt = require("bcrypt") added in usermodel
 and create hashcode password and salt completed
 postman api runs succesfully
 work-4 (login controller)
+loginUserCtrl created
+in usermodel matching code written succesfully
+route created
+work-5(json web token)
+install npm i jsonwebtoken
+
 
 
