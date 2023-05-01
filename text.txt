@@ -33,8 +33,13 @@ in usercontroller change the response.json and generateToken added
 in usermodel add role default user
 work-6(user crud)
 create get all user 
-create get single User by id
-
+create get single User by id user controller
+added route also
+git pushed
+work-7(delete user)
+delete api created 
+authRoute created
+work-8 (update user)
 
 
 
